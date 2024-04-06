@@ -29,8 +29,11 @@ int num = 30 + 40; // 30과 40은 상수
     - 정답은 `int`형 메모리 공간에 저장됩니다. 그 이유는, C언어에서는 `‘A’`라는 문자 리터럴이 내부적으로 ASCII 값, 즉 정수로 저장되기 때문입니다.
         
         ```c
+        // 리터럴 상수
         printf("%lu \n", sizeof('A')); // 4
         printf("%lu \n", sizeof('A' + 15)); // 4
+
+        // 심볼릭 상수
         char ch1='A';
         printf("%lu \n", sizeof(ch1)); // 1
         printf("%lu \n", sizeof(ch1+15)); // 4
