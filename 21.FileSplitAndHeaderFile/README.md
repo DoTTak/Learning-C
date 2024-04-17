@@ -16,7 +16,7 @@ C언어에서 파일의 분할을 위해서는 변수나 함수가 다른 파일
 
 ## static 키워드
 
-이전에 `static` 키워드에 대해 다룬적이 있습니다. [static 변수](https://www.notion.so/static-129da3c644314d3aa3f920361f885c95?pvs=21) 
+이전에 `static` 키워드에 대해 다룬적이 있습니다. [static 변수](https://github.com/DoTTak/Learning-C/tree/main/08.Function#static-%EB%B3%80%EC%88%98) 
 
 파일의 분할에서 다시 `static` 키워드를 언급한 이유는 `static` 키워드를 사용하면, 프로젝트의 다른 파일들이 해당 변수나 함수를 참조할 수 없게 됩니다. 이는 특정 파일 내에서만 사용되는 변수나 함수를 숨기고, 프로젝트의 다른 부분에서 접근을 방지하려는 경우에 유용합니다.
 
